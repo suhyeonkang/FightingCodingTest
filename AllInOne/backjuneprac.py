@@ -9,6 +9,10 @@ print(A + B)
 A, B = map(int, input().split())
 print(A-B)
 
+## 백준 10998번
+A, B = map(int, input().split())
+print(A*B)
+
 ## 백준 10171번 
 print("\\     /\\")
 print(" )   ( ')")
