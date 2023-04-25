@@ -25,6 +25,11 @@ print(A*B)
 print(A//B)
 print(A%B)
 
+## 백준 10926번
+word = input()
+
+print(word + '??!')
+
 ## 백준 10171번 
 print("\\     /\\")
 print(" )   ( ')")
