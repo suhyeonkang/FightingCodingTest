@@ -30,6 +30,10 @@ word = input()
 
 print(word + '??!')
 
+## 백준 18108번
+A = int(input())
+print(A-543)
+
 ## 백준 10171번 
 print("\\     /\\")
 print(" )   ( ')")
