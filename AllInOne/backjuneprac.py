@@ -34,6 +34,13 @@ print(word + '??!')
 A = int(input())
 print(A-543)
 
+## 백준 10430번
+A, B, C = map(int, input().split())
+print((A+B)%C)
+print(((A%C) + (B%C)) % C)
+print((A*B)%C)
+print(((A%C) * (B%C)) % C)
+
 ## 백준 10171번 
 print("\\     /\\")
 print(" )   ( ')")
