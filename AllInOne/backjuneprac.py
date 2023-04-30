@@ -41,6 +41,20 @@ print(((A%C) + (B%C)) % C)
 print((A*B)%C)
 print(((A%C) * (B%C)) % C)
 
+## 백준 2588번
+A = int(input())
+B = input()
+
+a = A * int(B[2])
+b = A * int(B[1])
+c = A * int(B[0])
+d = a + b*10 + c*100
+
+print(a)
+print(b)
+print(c)
+print(d)
+
 ## 백준 10171번 
 print("\\     /\\")
 print(" )   ( ')")
