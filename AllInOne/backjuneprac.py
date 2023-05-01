@@ -55,6 +55,11 @@ print(b)
 print(c)
 print(d)
 
+## 백준 11382번
+A, B, C = map(int, input().split())
+
+print(A + B + C)
+
 ## 백준 10171번 
 print("\\     /\\")
 print(" )   ( ')")
